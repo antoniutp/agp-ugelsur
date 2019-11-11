@@ -1,0 +1,216 @@
+*{margin: 0; padding: 0;}
+html, body{width: 100%; height: 100%;}
+
+/* LOGIN */
+
+.box{
+    color: rgb(127, 140, 141);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.box .panelLeft{
+    background-image: url(../assets/imgEducator.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.box .panelRight{
+    background-color: white;
+    min-width: 350px;
+    padding: 40px;
+}
+
+.box .panelRight .logos{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: solid 3px rgb(46, 204, 113);
+}
+
+.box .panelRight .logos img{
+    height: 35px;
+}
+
+.box .panelRight .form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.box .panelRight .form .formTitle{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: solid 3px rgb(46, 204, 113);;
+}
+
+.box .panelRight .form .controls{
+    display: flex;
+    flex-direction: column;
+}
+
+.box .panelRight .form .controls input[type="text"]{
+    margin-bottom: 15px;
+}
+
+.box .panelRight .form input[type="submit"]{
+    margin-top: 25px;
+}
+
+.box .panelRight .help{
+    text-align: center;
+}
+
+.box .panelRight .help a{
+    font-size: 13px;
+    color: rgb(189, 195, 199);
+}
+
+.box .panelRight .help a:hover{
+    color:  rgb(127, 140, 141);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* INDEX */
+
+.menu{
+    background-color: rgb(44, 62, 80);
+    min-width: 220px;
+}
+
+.menu a{
+    color: white;
+    display: block;
+    padding: 10px 15px;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background-color: rgb(231, 76, 60);
+}
+
+.menu .avatar{
+    background-color: rgb(236, 240, 241);
+    text-align: center;
+    padding: 20px;
+}
+
+.menu .avatar img{
+    height: 150px;
+}
+
+.menu .badge{
+    background-color: rgb(127, 140, 141);
+    border-radius: 25%;
+    margin-left: 15px;
+}
+
+.content{
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+/* CONTENT - Horario */
+
+.boxContent{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgb(206, 214, 224);
+    height: auto;
+}
+
+.boxContent .header{
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: ; 
+}
+
+.boxContent .header h3{
+    color: grey;
+}
+
+.boxContent .addRow{
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.boxContent .addRow .institucion table td{
+    padding: 3px;
+}
+
+.boxContent strong{
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    display: block;
+    color: steelblue;
+    border-bottom: solid 2px steelblue;
+}
+
+.boxContent .addRow form{
+    display: flex;
+}
+
+.boxContent .addRow form table td{
+    padding: 3px;
+}
+
+.boxContent .addRow form .center{
+    margin: 0 15px;
+}
+
+.boxContent .addRow form .center input{
+    width: 60px;
+}
+
+.boxContent .section{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.boxContent .section div table{
+    text-align: center;
+}
+
+.boxContent .section div table th{
+    vertical-align: middle;
+    font-size: 11px;
+    background-color: rgb(240,240,240);
+}
+
+.myBtn{
+    float: right;
+}
+
+/* NOTIFICACIONES */
+
+
+.date{
+    text-align: center;
+}
+
+.notificacion{
+    box-shadow: 1px 1px 8px rgb(44, 62, 80);
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 5px;
+    background-color: white;
+    width: 80%;
+}
+
+.notificacion h6{
+    color: rgb(231, 76, 60);
+    padding-bottom: 8px;
+    border-bottom: solid 2px rgb(231, 76, 60);
+}
